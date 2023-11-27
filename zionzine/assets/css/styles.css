@@ -533,7 +533,30 @@ img {
 
 .discount__title {
   margin-bottom: 1rem;
-} /* PAREI AQUI MIN 57:13 */
+} 
+
+.disocunt__description {
+  margin-bottom: 2rem;
+}
+
+.discount__images {
+  display: flex;
+  justify-content: center;
+}
+
+.discount__img-1,
+.discount__img-2{
+  width: 170px;
+}
+
+.discount__img-1{
+  transform: translateX(1rem) rotate(-10deg);
+}
+
+.discount__img-2{
+  transform: translateX(-1rem) rotate(10deg);
+}
+
 
 
 
