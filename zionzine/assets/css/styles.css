@@ -563,7 +563,7 @@ img {
   align-items: center;
   column-gap: 2.5rem;
   background-color: var(--container-color);
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
   color: var(--text-color);
   border: 2px solid var(--border-color);
   transition: border .4s, background-color .4s;
@@ -574,7 +574,7 @@ img {
 }
 
 .new__img {
-  width: 100px;
+  width: 140px;
 }
 
 .new__title {
@@ -596,9 +596,11 @@ img {
 .new__price {
   font-size: var(--small-font-size);
   text-decoration: line-through;
-  /* PAREI AQUI MIN 1:02:59 */
 }
 
+.new__stars {
+  color: var(--first-color);
+}
 /*=============== JOIN ===============*/
 
 
