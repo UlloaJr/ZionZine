@@ -188,7 +188,8 @@ const sr = ScrollReveal({
     //reset: true, //Animations repeat
 })
 
-sr.reveal(`.home__data, .featured__container, .new__container`) /* PAREI AQUI MIN 2:00:59 */
+sr.reveal(`.home__data, .featured__container, .new__container,
+            .join__data, .testimonial__container, .footer`) 
 sr.reveal(`.home__images`, {delay: 600})
 sr.reveal(`.services__card`, {interval: 100})
 sr.reveal(`.discount__data`, {origin: 'left'})
